@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    font-family: Raleway,sans-serif;
+  background-color: #f2f6ff;
+}
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 80px;
+    border-bottom: 1px solid black;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 1px 1px #ccc;
+}
+
+
+
+header p {
+    margin: 0;
+    color: #666666;
+    
+    
+}
+
+header .left {
+    display: flex;
+    align-items: center;
+    background-color: white
+}
+
+header .left img {
+    margin-right: 40px;
+    /* height: 51px; */
+   
+    
+}
+
+header .right {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    
+}
+
+header .right p {
+    color: grey;
+}
+
+header .right a {
+    margin-left: 40px;
+    background-color: blue;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 40px;
+    text-decoration: none;
+    background-image: linear-gradient(269deg,#0048ff,#0096ff);
+}
+
+main {
+    padding: 10px 50px;
+    padding-top: 75px;
+    background-color: #f2f6ff;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+
+
+main p {
+    display: flex;
+    align-items: center;
+}
+
+main p img {
+    width: 24px;
+    margin-right: 5px;
+}
+
+.filters button {
+  flex-wrap: wrap;
+  /* front-size: 16px; */
+  margin-bottom: 20px;
+  color: #0084ff;
+  padding: 6px 16px;
+  border-radius: 15px;
+  border: 1px solid #0084ff;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.filters button:hover,
+.filters button.active{
+    background-image: linear-gradient(269deg,#0048ff,#380fdd);
+    color: rgb(235, 235, 241);
+}
+
+.posts {
+    margin: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.posts .post {
+    width: 30%;
+    box-shadow: 0 5px 20px 0 rgba(0);
+    margin: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid rgba(0, 168);
+}
+
+.posts .post img {
+    width: 100%;
+}
+
+.posts .post .content {
+    padding: 20px;
+    background: white;
+    /* font-family: Raleway;
+    font-weight: 400; */
+}
+
+.posts .post .content p span {
+    color: #0096ff;
+    font-family: Raleway;
+    font-weight: 500;
+}
+
+footer {
+    background-color: #172146;
+    height: 60px;
+}
